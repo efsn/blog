@@ -1,4 +1,4 @@
-package com.codeyn.blog.admin.jfinal.config;
+package com.codeyn.blog.jfinal.config;
 
 import com.codeyn.jfinal.config.BaseConfig;
 

@@ -31,6 +31,12 @@
 			<groupId>com.codeyn</groupId>
 			<artifactId>frame-jfinal</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.codeyn</groupId>
+			<artifactId>frame-sitemesh</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 

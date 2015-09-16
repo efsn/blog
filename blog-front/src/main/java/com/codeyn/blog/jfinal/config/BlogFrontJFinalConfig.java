@@ -3,7 +3,6 @@ package com.codeyn.blog.jfinal.config;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.codeyn.base.util.PackageScanner;
 import com.codeyn.blog.jfinal.interceptor.ResInterceptor;
 import com.codeyn.jfinal.config.BaseConfig;
 import com.jfinal.config.Constants;
@@ -12,8 +11,6 @@ import com.jfinal.core.Const;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.tx.Tx;
 import com.jfinal.render.FreeMarkerRender;
-
-import freemarker.template.TemplateHashModel;
 
 public class BlogFrontJFinalConfig extends BaseConfig {
 
@@ -31,7 +28,7 @@ public class BlogFrontJFinalConfig extends BaseConfig {
 
     @Override
     protected void onConfigConstant(Constants me) {
-        me.setBaseViewPath("/WEB_INF/pages");
+        me.setBaseViewPath("/WEB-INF/pages");
         me.setDevMode(PropKit.getBoolean("devMode", false));
         me.setEncoding(Const.DEFAULT_ENCODING);
 
@@ -43,12 +40,7 @@ public class BlogFrontJFinalConfig extends BaseConfig {
         packages.add("com.codeyn.blog.util");
         packages.add("com.codeyn.blog.*.enums");
         packages.add("com.codeyn.blog.jfinal.bridger");
-
-        Set<Class<?>> clazzs = PackageScanner.scanPackage(packages.toArray(new String[0]));
-        for (Class<?> clazz : clazzs) {
-            TemplateHashModel temp = buildStaticTemplate(clazz.getName());
-            FreeMarkerRender.getConfiguration().setSharedVariable(clazz.getSimpleName(), temp);
-        }
+        setSharedVariable(packages);
 
         me.setFileRenderPath("/download");
         me.setUploadedFileSaveDirectory("/upload");
