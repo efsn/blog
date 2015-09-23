@@ -55,8 +55,8 @@
 
 		<nav id="nav-wrap"> 
 
-	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
-		<a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
+	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">展开菜单</a>
+		<a class="mobile-btn" href="#" title="Hide navigation">隐藏菜单</a>
 
 	   	<div class="row">    		            
 
@@ -99,23 +99,23 @@
 					<header class="entry-header">
 
 						<h2 class="entry-title">
-							<a href="single.html" title="">Hey, We Love Open Sans!</a>
+							<a href="single.html" title="">标题-测试</a>
 						</h2> 				 
 					
 						<div class="entry-meta">
 							<ul>
-								<li>July 12, 2014</li>
+								<li>2015-09-23</li>
 								<span class="meta-sep">&bull;</span>								
-								<li><a href="#" title="" rel="category tag">Ghost</a></li>
+								<li><a href="#" title="" rel="category tag">基本语法</a></li>
 								<span class="meta-sep">&bull;</span>
-								<li>John Doe</li>
+								<li>陈少</li>
 							</ul>
 						</div> 
 					 
 					</header> 
 					
 					<div class="entry-content">
-						<p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
 					</div> 
 
 				</article> <!-- end entry -->
@@ -125,26 +125,26 @@
 					<header class="entry-header">
 
 						<h2 class="entry-title">
-							<a href="single.html" title="">We All Love Good Typography.</a>
+							<a href="single.html" title="">标题-测试</a>
 						</h2> 				 
 					
 						<div class="entry-meta">
 							<ul>
-								<li>July 11, 2014</li>
+								<li>2015-09-24</li>
 								<span class="meta-sep">&bull;</span>							
 								<li>
-									<a href="#" title="" rel="category tag">Wordpress</a>,
-									<a href="#" title="" rel="category tag">Ghost</a>  
+									<a href="#" title="" rel="category tag">前端</a>,
+									<a href="#" title="" rel="category tag">后台</a>  
 								</li>
 								<span class="meta-sep">&bull;</span>
-								<li>Jane Doe</li>
+								<li>陈少</li>
 							</ul>
 						</div>
 					 
 					</header> 			
 
 					<div class="entry-content">
-						<p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in.</p>
+						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
 					</div> 
 
 				</article> <!-- end entry -->
@@ -154,26 +154,26 @@
 					<header class="entry-header">
 
 						<h2 class="entry-title">
-							<a href="single.html" title="">White Space Everywhere.</a>
+							<a href="single.html" title="">标题-测试</a>
 						</h2> 				 
 					
 						<div class="entry-meta">
 							<ul>
-								<li>July 10, 2014</li>
+								<li>2015-09-23</li>
 								<span class="meta-sep">&bull;</span>								
 								<li>
-									<a href="#" title="" rel="category tag">Joomla</a>,
-									<a href="#" title="" rel="category tag">Drupal</a>  
+									<a href="#" title="" rel="category tag">前端</a>,
+									<a href="#" title="" rel="category tag">后台</a>  
 								</li>
 								<span class="meta-sep">&bull;</span>
-								<li>Naruto Uzumaki</li>
+								<li>陈少</li>
 							</ul>
 						</div> 
 					 
 					</header> 			
 
 					<div class="entry-content">
-						<p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
 					</div> 
 
 				</article> <!-- end entry -->  
@@ -183,25 +183,25 @@
 					<header class="entry-header">
 
 						<h2 class="entry-title">
-							<a href="single.html" title="">Simple And Minimalist Designs.</a>
+							<a href="single.html" title="">标题-测试</a>
 						</h2> 				 
 					
 						<div class="entry-meta">
 							<ul>
-								<li>July 09, 2014</li>
+								<li>2014-09-21</li>
 								<span class="meta-sep">&bull;</span>								
 								<li>
-									<a href="#" title="" rel="category tag">Ghost</a>  
+									<a href="#" title="" rel="category tag">服务器</a>  
 								</li>
 								<span class="meta-sep">&bull;</span>
-								<li>Naruto Uzumaki</li>
+								<li>陈少</li>
 							</ul>
 						</div> 
 					 
 					</header> 			
 
 					<div class="entry-content">
-						<p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
 					</div> 
 
 				</article> <!-- end entry -->  	
@@ -224,44 +224,44 @@
    			<div class="widget widget_categories group">
    				<h3>Categories.</h3> 
    				<ul>
-						<li><a href="#" title="">Wordpress</a> (2)</li>
-						<li><a href="#" title="">Ghost</a> (14)</li>
-						<li><a href="#" title="">Joomla</a> (5)</li>
-						<li><a href="#" title="">Drupal</a> (3)</li>
-						<li><a href="#" title="">Magento</a> (2)</li>
-						<li><a href="#" title="">Uncategorized</a> (9)</li>						
-					</ul>
-				</div>
+						<li><a href="#" title="">分组一</a> (2)</li>
+						<li><a href="#" title="">分组二</a> (14)</li>
+						<li><a href="#" title="">分组三</a> (5)</li>
+						<li><a href="#" title="">分组四</a> (3)</li>
+						<li><a href="#" title="">分组五</a> (2)</li>
+						<li><a href="#" title="">分组六</a> (9)</li>						
+				</ul>
+			</div>
 
-				<div class="widget widget_text group">
-					<h3>Widget Text.</h3>
+			<div class="widget widget_text group">
 
-   				<p>Lorem ipsum Ullamco commodo laboris sit dolore commodo aliquip incididunt fugiat esse dolor aute fugiat minim eiusmod do velit labore fugiat officia ad sit culpa labore in consectetur sint cillum sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.</p>
+				<h3>装饰物</h3>
+   				<p>自我介绍，自我介绍，自我介绍，自我介绍，自我介绍。</p>
 
    			</div>
 
    			<div class="widget widget_tags">
-               <h3>Post Tags.</h3>
+               <h3>文章信息标签</h3>
 
                <div class="tagcloud group">
-                	<a href="#">Corporate</a>
-                  <a href="#">Onepage</a>
-                  <a href="#">Agency</a>
-                  <a href="#">Multipurpose</a>
-                  <a href="#">Blog</a>
-                  <a href="#">Landing Page</a>
-                  <a href="#">Resume</a>
+                	<a href="#">Java</a>
+                  <a href="#">Javascript</a>
+                  <a href="#">H5</a>
+                  <a href="#">多目标</a>
+                  <a href="#">博客</a>
+                  <a href="#">转载</a>
+                  <a href="#">摘要</a>
                </div>
                   
             </div>
 
             <div class="widget widget_popular">
-               <h3>Popular Post.</h3>
+               <h3>热门博客</h3>
 
                <ul class="link-list">
-                  <li><a href="#">Sint cillum consectetur voluptate.</a></li>
-                  <li><a href="#">Lorem ipsum Ullamco commodo.</a></li>
-                  <li><a href="#">Fugiat minim eiusmod do.</a></li>                     
+                  <li><a href="#">测试博客一</a></li>
+                  <li><a href="#">测试博客二</a></li>
+                  <li><a href="#">测试博客三</a></li>                     
                </ul>
                   
             </div>
