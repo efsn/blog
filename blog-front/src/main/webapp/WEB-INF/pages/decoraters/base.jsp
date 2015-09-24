@@ -26,10 +26,11 @@
    <!-- Script
    ================================================== -->
 	<script src="/res/js/modernizr.js"></script>
+	<sm:insert property="head-js" />
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="/res/icoc/blog-16.png">
+	<link rel="shortcut icon" href="/res/icon/blog-16.png">
 	
 	<sm:insert property="css" />
 
@@ -61,153 +62,38 @@
 	   	<div class="row">    		            
 
 			   	<ul id="nav" class="nav">
-			      	<li class="current"><a href="index.html">首页</a></li>
-			      	<li class="has-children"><a href="#">Dropdown</a>
+			      	<li class="current"><a href="/index.html">首页</a></li>
+			      	<li class="has-children"><a href="#">下拉框</a>
 	                	<ul>
-	                    	<li><a href="#">Submenu 01</a></li>
-	                     	<li><a href="#">Submenu 02</a></li>
-	                     	<li><a href="#">Submenu 03</a></li>
+	                    	<li><a href="#">子菜单1</a></li>
+	                     	<li><a href="#">子菜单2</a></li>
+	                     	<li><a href="#">子菜单3</a></li>
 	                  	</ul>
 	               	</li>
-	               	<li><a href="demo.html">Demo</a></li>	
-	               	<li><a href="archives.html">Archives</a></li>
-					<li class="has-children"><a href="single.html">Blog</a>
+	               	<li><a href="demo.html">演示</a></li>	
+	               	<li><a href="archives.html">档案</a></li>
+					<li class="has-children"><a href="/single.html">博客</a>
 						<ul>
-	                     	<li><a href="blog.html">Blog Entries</a></li>
-	                     	<li><a href="single.html">Single Blog</a></li>	                     
+	                     	<li><a href="/blog.html">文章</a></li>
+	                     	<li><a href="/single.html">单博客</a></li>	                     
 	                  	</ul>
 			      	</li>		      	
-			      	<li><a href="page.html">Page</a></li>
+			      	<li><a href="page.html">关于我</a></li>
 			</ul> <!-- end #nav -->			   	 
 
 	   	</div> 
 
 	   </nav> <!-- end #nav-wrap --> 	     
 
-   </header> <!-- Header End -->
+	</header> <!-- Header End -->
 
-   <!-- Content
-   ================================================== -->
-   <div id="content-wrap">
+	<div id="content-wrap">
 
    	<div class="row">
 
-   		<div id="main" class="eight columns">
-
-	   		<article class="entry">
-
-					<header class="entry-header">
-
-						<h2 class="entry-title">
-							<a href="single.html" title="">标题-测试</a>
-						</h2> 				 
-					
-						<div class="entry-meta">
-							<ul>
-								<li>2015-09-23</li>
-								<span class="meta-sep">&bull;</span>								
-								<li><a href="#" title="" rel="category tag">基本语法</a></li>
-								<span class="meta-sep">&bull;</span>
-								<li>陈少</li>
-							</ul>
-						</div> 
-					 
-					</header> 
-					
-					<div class="entry-content">
-						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
-					</div> 
-
-				</article> <!-- end entry -->
-
-				<article class="entry">
-	   			
-					<header class="entry-header">
-
-						<h2 class="entry-title">
-							<a href="single.html" title="">标题-测试</a>
-						</h2> 				 
-					
-						<div class="entry-meta">
-							<ul>
-								<li>2015-09-24</li>
-								<span class="meta-sep">&bull;</span>							
-								<li>
-									<a href="#" title="" rel="category tag">前端</a>,
-									<a href="#" title="" rel="category tag">后台</a>  
-								</li>
-								<span class="meta-sep">&bull;</span>
-								<li>陈少</li>
-							</ul>
-						</div>
-					 
-					</header> 			
-
-					<div class="entry-content">
-						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
-					</div> 
-
-				</article> <!-- end entry -->
-
-				<article class="entry">
-	   			
-					<header class="entry-header">
-
-						<h2 class="entry-title">
-							<a href="single.html" title="">标题-测试</a>
-						</h2> 				 
-					
-						<div class="entry-meta">
-							<ul>
-								<li>2015-09-23</li>
-								<span class="meta-sep">&bull;</span>								
-								<li>
-									<a href="#" title="" rel="category tag">前端</a>,
-									<a href="#" title="" rel="category tag">后台</a>  
-								</li>
-								<span class="meta-sep">&bull;</span>
-								<li>陈少</li>
-							</ul>
-						</div> 
-					 
-					</header> 			
-
-					<div class="entry-content">
-						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
-					</div> 
-
-				</article> <!-- end entry -->  
-
-				<article class="entry">
-	   			
-					<header class="entry-header">
-
-						<h2 class="entry-title">
-							<a href="single.html" title="">标题-测试</a>
-						</h2> 				 
-					
-						<div class="entry-meta">
-							<ul>
-								<li>2014-09-21</li>
-								<span class="meta-sep">&bull;</span>								
-								<li>
-									<a href="#" title="" rel="category tag">服务器</a>  
-								</li>
-								<span class="meta-sep">&bull;</span>
-								<li>陈少</li>
-							</ul>
-						</div> 
-					 
-					</header> 			
-
-					<div class="entry-content">
-						<p>测试，测试，测试，测试，测试，测试，测试，测试。</p>
-					</div> 
-
-				</article> <!-- end entry -->  	
-						
-
-   		</div> <!-- end main -->
+	<sm:insert property="content" />
+   
+	<sm:insert property="sidebar" >
 
    		<div id="sidebar" class="four columns">
 
@@ -267,11 +153,13 @@
             </div>
    			
    		</div> <!-- end sidebar -->
+	</sm:insert>
 
    	</div> <!-- end row -->
 
    </div> <!-- end content-wrap -->
    
+   <sm:insert property="footer" />
 
    <!-- Footer
    ================================================== -->
@@ -280,7 +168,7 @@
       <div class="row"> 
 
       	<div class="twelve columns">	
-				<ul class="social-links">
+			<ul class="social-links">
                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>               
@@ -293,48 +181,48 @@
       	
          <div class="six columns info">
 
-            <h3>About Keep It Simple</h3> 
+            <h3>关于我</h3> 
 
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh id elit. 
+            <p>
+            	他人笑我太疯癫，我笑他人看不穿 
             </p>
 
-            <p>Lorem ipsum Sed nulla deserunt voluptate elit occaecat culpa cupidatat sit irure sint 
-            sint incididunt cupidatat esse in Ut sed commodo tempor consequat culpa fugiat incididunt.</p>
+            <p>
+				不是五陵豪杰墓，无花无酒锄作田
+			</p>
 
          </div>
 
          <div class="four columns">
 
-            <h3>Photostream</h3>
+            <h3>照片同步</h3>
             
             <ul class="photostream group">
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
-               <li><a href="#"><img alt="thumbnail" src="images/thumb.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
+               <li><a href="#"><img alt="thumbnail" src="/res/images/img.jpg"></a></li>
             </ul>           
 
          </div>
 
          <div class="two columns">
-            <h3 class="social">Navigate</h3>
+            <h3 class="social">导航</h3>
 
             <ul class="navigate group">
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Blog</a></li>
-               <li><a href="#">Demo</a></li>
-               <li><a href="#">Archives</a></li>
-               <li><a href="#">About</a></li>
+               <li><a href="#">首页</a></li>
+               <li><a href="#">博客</a></li>
+               <li><a href="#">演示</a></li>
+               <li><a href="#">档案</a></li>
+               <li><a href="#">关于我</a></li>
             </ul>
          </div>
 
-         <p class="copyright">&copy; Copyright 2014 Keep It Simple. &nbsp; Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>.</p>
+         <p class="copyright">&copy; Copyright 2015 Codeyn.</p>
         
       </div> <!-- End row -->
 
@@ -345,11 +233,12 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
-   <script src="js/main.js"></script>
+   <script src="/res/js/jquery-1.10.2.min.js"></script>
+   <script type="text/javascript" src="/res/js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="/res/js/main.js"></script>
 
 </body>
+
+<sm:insert property="js"/>
 
 </html>

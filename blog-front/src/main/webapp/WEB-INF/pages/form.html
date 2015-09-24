@@ -1,0 +1,67 @@
+<sm:template path="/WEB-INF/pages/decoraters/base.jsp" />
+<sm:attr name="表单" />
+
+<sm:component name="content" >
+<div class="row add-bottom">
+
+         <div class="twelve columns add-bottom">
+
+            <h3>表单样式</h3>
+
+			<form>
+				<fieldset>
+					
+					<label for="regularInput">常规输入</label>
+					<input type="text" id="regularInput">
+
+                  	<label for="regularTextarea">常规文本框</label>
+					<textarea id="regularTextarea"></textarea>
+
+                  	<label for="selectList">多选框</label>
+					<select id="selectList">
+						<option value="Option1">选项1</option>
+						<option value="Option2">选项2</option>
+						<option value="Option3">选项3</option>
+						<option value="Option4">选项4</option>
+					</select>
+
+                  	<fieldset>
+						<legend>多选框</legend>
+	
+	          			<label for="regularCheckbox">
+							<input type="checkbox" value="checkbox1" id="regularCheckbox">
+							<span>常规多选框</span>
+						</label>
+	
+	                     <label for="secondRegularCheckbox">
+						   	<input type="checkbox" value="checkbox2" id="secondRegularCheckbox">
+							<span>常规多选框</span>
+						</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>单选框</legend>
+
+	               		<label for="regularRadio">
+							<input type="radio" value="radio 1" id="regularRadio" name="radios">
+							<span>常规单选</span>
+						</label>
+
+               			<label for="secondRegularRadio">
+					   		<input type="radio" value="radio 2" id="secondRegularRadio" name="radios">
+							<span>常规单选</span>
+						</label>
+					</fieldset>
+
+					<button type="submit">提交</button>
+
+				</fieldset>
+			</form>
+
+		</div>
+
+		<hr/>
+
+	</div>
+</sm:component>
+
